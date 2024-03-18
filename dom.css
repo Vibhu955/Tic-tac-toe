@@ -1,0 +1,31 @@
+h1{
+    color: blueviolet;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+h3{
+    color: rgb(28, 63, 179);
+    text-decoration: underline;
+    text-align: center;
+    font-size: medium;
+}
+.myp{
+    background-color: greenyellow;
+}
+#btn1:hover{
+    color: crimson;
+    border: 2px solid black;
+/*    border-color: black;*/
+    border-radius: 50px;
+}
+#btn1:active{
+    border-color: red;
+}
+#click{
+    color:white;
+    background-color: blue;
+}
+.mynewp{
+    color: blue;
+}

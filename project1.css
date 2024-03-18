@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: cadetblue;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 25px;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.b{
+    margin: 1.5px;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 0.75rem;
+    border: none;
+    color: rgb(79, 26, 26);
+    font-size: 9vmin;
+    background-color: antiquewhite;
+}
+.reset{
+    font-size: 3.5vmin;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    border-radius: 0.65rem;
+    background-color: rgb(21, 42, 57);
+    color:#ffffff;
+    margin-top: 15px;
+    border: 2px solid rgb(21, 42, 57);  
+}
+.r:active{
+    border: none;
+}
+.r:hover{
+    cursor: pointer;
+}
+.back{
+    font-size: 3.5vmin;
+    position: relative;
+    top: 15px;
+    padding: 10px;
+    border-radius: 0.65rem;
+    background-color: rgb(21, 42, 57);
+    color:#ffffff;
+    margin-top: 15px;
+    border: 2px solid rgb(21, 42, 57);  
+}
+/* #back:hover{
+    cursor: pointer;
+}
+#back:active{
+    border: none;
+} */
+/* #box10:hover{
+    background-color: blue;
+    color: azure;
+    font-size: x-large ;
+    transform: translate(-10px,-10px); */
+.winner{
+    font-size: 10vmin;
+    color: rgb(67, 67, 91);
+    font-weight: bolder;
+    animation-name:winners; 
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+}
+@keyframes winners{
+    from{position: fixed;
+        top: 0px; }
+    to{position: fixed;top: 200px;
+    background-color: black;
+    transform: scale(1.5,1.5);
+}
+}
